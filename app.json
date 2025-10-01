@@ -1,6 +1,6 @@
 {
-  "name": "TG File Share/Sharing Bot",
-  "description": "file sharing bot store posts and it can access by special links",
+  "name": "Krovik File Store Bot",
+  "description": "File sharing bot that stores posts and allows access via special links",
   "keywords": [
     "telegram",
     "file",
@@ -11,43 +11,43 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "7462299639:AAHvIVZMP3jXQApQnz52fwDl2xbaUCjSNT0"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6497757690"
+      "value": "5373224722"
     },
-    "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
-      "value": ""
+    "APP_ID": {
+      "description": "Your app id, take it from my.telegram.org",
+      "value": "25165701"
     },
     "DATABASE_URL": {
-      "description": "Paste your mongo db url",
-      "value": "url"
+      "description": "Paste your MongoDB URL",
+      "value": "mongodb+srv://shainmeena950_db_user:71hH42ozcdMfaKRh@cluster0.j7vsvfq.mongodb.net/FileStoreDB?retryWrites=true&w=majority"
     },
-    "DATABASE_NAME":{
-      "description": "Enter your DATABASE_NAME ",
-      "value": "Cluster0"
+    "DATABASE_NAME": {
+      "description": "Enter your DATABASE_NAME",
+      "value": "FileStoreDB"
     },
-    "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+    "API_HASH": {
+      "description": "Your api hash, take it from my.telegram.org",
+      "value": "2b64f26c1d8841d48b295f0db6e79639"
     },
-    "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001995978690"
+    "CHANNEL_ID": {
+      "description": "Make a channel (database channel), then make the bot as admin, and put its ID",
+      "value": "-1002380560765"
     },
-    "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+    "FORCE_SUB_CHANNEL": {
+      "description": "ID of the channel or group for force sub feature, else put 0",
       "value": "-1001473043276"
     },
-    "FORCE_SUB_CHANNEL2":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+    "FORCE_SUB_CHANNEL2": {
+      "description": "ID of the channel or group for second force sub feature, else put 0",
       "value": "-1001495022147"
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "5115691197 6273945163 6103092779 5231212075",
+      "description": "A space-separated list of user_ids of Admins, they can only create links",
+      "value": "5373224722",
       "required": false
     },
     "PROTECT_CONTENT": {
